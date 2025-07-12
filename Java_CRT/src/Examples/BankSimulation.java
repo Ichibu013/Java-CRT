@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 class User {
 
+
 	private String UserName;
 	private int pin;
 	private long balance;
@@ -37,10 +38,10 @@ class User {
 	public void setBalance(long balance) {
 		this.balance = balance;
 	}
+
 }
 
 class ATM {
-
 	private int atmId;
 
 	public ATM(int atmId) {
@@ -54,9 +55,10 @@ class ATM {
 	public void setAtmId(int atmId) {
 		this.atmId = atmId;
 	}
-}
+
 
 class Bank {
+
 
 	public void showUserDetails(User user) {
 		System.out.println("Examples.User Name: " + user.getUserName());

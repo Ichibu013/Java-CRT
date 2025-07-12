@@ -3,6 +3,7 @@ package EasyEg;
 import java.util.Scanner;
 
 public class N_Addition {
+
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter number to be added: ");
@@ -16,4 +17,5 @@ public class N_Addition {
 		System.out.println("Sum = " + sum);
 		sc.close();
 	}
+
 }
