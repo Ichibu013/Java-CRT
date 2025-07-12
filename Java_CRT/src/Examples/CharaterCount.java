@@ -3,32 +3,38 @@ package Examples;
 import java.util.Scanner;
 
 public class CharaterCount {
-    public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
+	public static void main(String[] args) {
 
-        System.out.print("Enter a string: ");
-        String str = sc.nextLine();
-        System.out.print("Enter a character:");
-        String ch = sc.nextLine();
+		Scanner sc = new Scanner(System.in);
 
-        if (ch.length() > 1) {
-            System.out.println("Inputted more than one character");
-            return;
-        } else if (ch.isEmpty()) {
-            System.out.println("Inputted no character");
-            return;
-        }
+		System.out.print("Enter a string: ");
+		String str = sc.nextLine();
+		System.out.print("Enter a character:");
+		String ch = sc.nextLine();
 
-        int count = 0;
-        for (int i = 0; i < str.length(); i++) {
-            if (str.toLowerCase().charAt(i) == ch.toLowerCase().charAt(0)) {        // Converting string to lower case and comparing with a letter
-                count++;                                                            // Increase count if found
-            }
-        }
+		if (ch.length() > 1) {
+			System.out.println("Inputted more than one character");
+			sc.close();
+			return;
+		} else if (ch.isEmpty()) {
+			System.out.println("Inputted no character");
+			sc.close();
+			return;
+		}
 
-        System.out.println("Character " + ch + " occurs " + count + " times");
+		int count = 0;
+		for (int i = 0; i < str.length(); i++) {
+			if (str.toLowerCase().charAt(i) == ch.toLowerCase().charAt(0)) { // Converting string to lower case and
+																				// comparing with a letter
+				count++; // Increase count if found
+			}
+		}
 
-        sc.close();
-    }
+		System.out.println("Character " + ch + " occurs " + count + " times");
+
+		sc.close();
+	}
+=======
+  
 }
