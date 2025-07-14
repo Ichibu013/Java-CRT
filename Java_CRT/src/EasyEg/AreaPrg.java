@@ -2,7 +2,9 @@ package EasyEg;
 
 import java.util.Scanner;
 
-public class
+
+public class AreaPrg {
+
 	public static void areaCircle(double num) {
 		System.out.println("Area : " + ((num * num) * ((double) 22 / 7)));
 	}
@@ -35,4 +37,5 @@ public class
 		input.close();
 
 	}
+
 }
