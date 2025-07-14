@@ -2,6 +2,7 @@ package EasyEg;
 
 import java.util.Scanner;
 
+
 public class AreaPrg {
 
 	public static void areaCircle(double num) {
