@@ -4,7 +4,9 @@ class p {
 	int n = 10;
 }
 
-class c extends p {
+
+class C extends p {
+
 	int n = 20;
 
 	void display() {
@@ -17,8 +19,7 @@ public class SuperKeyword {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		c c = new C();
-		C.display();
+		C c = new C();
+		c.display();
 	}
-
 }

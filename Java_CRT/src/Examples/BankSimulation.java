@@ -38,6 +38,8 @@ class User {
 		this.balance = balance;
 	}
 
+}
+
 class ATM {
 
 	private int atmId;
@@ -54,6 +56,7 @@ class ATM {
 		this.atmId = atmId;
 	}
 
+}
 
 class Bank {
 
