@@ -4,7 +4,9 @@ class p {
 	int n = 10;
 }
 
+
 class C extends p {
+
 	int n = 20;
 
 	void display() {
@@ -20,5 +22,4 @@ public class SuperKeyword {
 		C c = new C();
 		c.display();
 	}
-
 }
