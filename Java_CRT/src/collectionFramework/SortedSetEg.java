@@ -5,6 +5,7 @@ import java.util.TreeSet;
 
 public class SortedSetEg {
 
+	@SuppressWarnings({ "unchecked", "rawtypes" })
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		SortedSet list = new TreeSet(); // ClassCasteException is added heterogeneous values as treeset does not support
