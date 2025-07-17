@@ -20,5 +20,4 @@ public class SuperKeyword {
 		C c = new C();
 		c.display();
 	}
-
 }
