@@ -37,6 +37,7 @@ class User {
 	public void setBalance(long balance) {
 		this.balance = balance;
 	}
+
 }
 
 class ATM {
@@ -54,6 +55,7 @@ class ATM {
 	public void setAtmId(int atmId) {
 		this.atmId = atmId;
 	}
+
 }
 
 class Bank {
